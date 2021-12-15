@@ -1,0 +1,230 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.error{
+	color:white;
+	background-color:#D00000;
+	border: 1px solid #8C1515;
+	margin-top:10px;
+	padding: 4px;
+	font-family:Arial;
+	font-weight:bold;
+}
+.good{
+	color:white;
+	background-color:#0C0;
+	border: 1px solid #31B800;
+	padding:4px;
+	font-family:Arial;
+	font-weight:bold;
+}
+aside{
+	float: left;
+	margin-right: 15px;
+	width: 220px;
+	margin-bottom: 100%;
+}
+select {
+   background-color: #006FC4;
+	border: 1px solid #00508D;
+	font-size: 15px;
+	color: white;
+	padding: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 7px;
+}
+select:active{
+	background-color: white;
+	color: #006FC4;
+} 
+option {
+   background-color: white;
+	border: 1px solid #00508D;
+	font-size: 15px;
+	color: #006FC4;
+	padding: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 7px;
+   } 
+#asideLinks{
+	background-color:#267bb6;
+	margin: 10px;
+	border-radius: 7px;
+	border: 3px solid orange;
+	padding-bottom:15px;
+	box-shadow: 2px 2px 2px black;
+}
+#asideLinks h3{
+    margin-left:20px;
+    margin-top: 5px;
+}
+#asideLinks div div {
+	background-color: white;
+	font-size: 18px;
+	padding-left: 10px;
+	margin-right:10px;
+	margin-left:10px;
+	border: 1px solid black;
+	text-shadow: 2px 2px 2px black;
+}
+#asideLinks div div:hover{
+	background-color: orange;
+}
+#asideLinks div div a{
+	font-size: 18px;
+	color: orange;
+	text-decoration: none;
+}
+#asideLinks div div a:hover{
+	color: white;
+	text-decoration: none;
+}
+#asideLinks div #opened {
+	background-color: orange;
+	font-size: 18px;
+	padding-left: 10px;
+	margin-right:10px;
+	margin-left:10px;
+	border: 1px solid black;
+	text-shadow: 2px 2px 2px black;
+	text-decoration: underline;
+}
+#asideLinks div #opened a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+#asideLinks div #opened a:hover{
+	color: orange;
+	text-decoration: none;
+}
+#asideLinks div #opened:hover{
+	background-color: white;
+}
+#posAsideLinks{
+	background-color:#FFD900;
+	margin: 10px;
+	border-radius: 7px;
+	border: 3px solid orange;
+	padding-bottom:15px;
+	box-shadow: 2px 2px 2px black;
+	
+}
+#posAsideLinks div div {
+	background-color: white;
+	font-size: 18px;
+	padding-left: 10px;
+	margin-right:10px;
+	margin-left:10px;
+	border: 1px solid black;
+	text-shadow: 2px 2px 2px black;
+}
+#posAsideLinks div div:hover{
+	background-color: orange;
+}
+#posAsideLinks div div a{
+	font-size: 18px;
+	color: orange;
+	text-decoration: none;
+}
+#posAsideLinks div div a:hover{
+	color: white;
+	text-decoration: none;
+}
+#posAsideLinks div #opened {
+	background-color: orange;
+	font-size: 18px;
+	padding-left: 10px;
+	margin-right:10px;
+	margin-left:10px;
+	border: 1px solid black;
+	text-shadow: 2px 2px 2px black;
+	text-decoration: underline;
+}
+#posAsideLinks div #opened a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+#posAsideLinks div #opened a:hover{
+	color: orange;
+	text-decoration: none;
+}
+#posAsideLinks div #opened:hover{
+	background-color: white;
+}
+#posAsideLinks h3{
+    margin-left:20px;
+    margin-top: 5px;
+}
+.friends{
+	border-radius: 20px;
+	border: 1px solid orange;
+	padding: 6px;
+	padding-left:30px;
+	background: white;
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);
+	margin-bottom:50px;
+}
+.chat{
+	max-width: 100%;
+}
+.chat-messages,
+.chat-area,
+.chat-name{
+	border: 1px solid #bbb;
+	padding: 10px;
+}
+.chat-messages{
+	width: 100%;
+	height: 300px;
+	overflow-y: scroll;
+}
+.chat-name{
+	width: 100%;
+	border-bottom: 0;
+}
+.chat-area{
+	width: 100%;
+	max-width: 100%;
+}
+.chat-me{
+	background-color: aquamarine;
+	float: left;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+.chat-other{
+	background-color: coral;
+	float: right;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+footer{
+    opacity: 0.8;
+    text-align: center;
+    background: #000;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    padding: 0px;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer a:visited{
+    color: #cccfc4;
+}
+footer a:hover{
+    color: #cccfc4;
+}
