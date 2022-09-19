@@ -1,6 +1,6 @@
 # eailio
 
-Eailio is likely to be one of the most loved projects I have ever made due to its scalability and the numerous features that are included in it. When I was like 10 years old, I dreamt of creating a social media website that has most of the loved features and since then I have dedicated loads of time and effort to live up to this dream and when I was like 12 years old, I created this huge project with its various features.
+Eailio is likely to be one of the beloved projects I have made. That's because of its scalability and the numerous features that are included in it. When I was like 15 years old, I thought about web development and started learning from youtube and stuff. Since then I have dedicated a lot of time and effort to learn and create projects to apply what I have learnt in everyday kind of web apps. After 2 years, I ended up creating that web app that has most features that modern social medias have.
 
 ## Features
 - Flawless Secure Register and Login System
